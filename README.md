@@ -23,3 +23,4 @@ Extra Features/Ideas that I believe will make me stand out:
 - Made sure to make my own design for the app so that it would look as appealing and beautiful as possible.
 - Coded the app entirely in SwiftUI which was the preferred framework.
 
+![Footage of the app](starwars.gif)
