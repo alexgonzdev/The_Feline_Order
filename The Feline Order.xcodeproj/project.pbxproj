@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A836F9A6276BD51D00CAD64F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A836F9A5276BD51D00CAD64F /* DetailView.swift */; };
+		A836F9A8276BD70900CAD64F /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A836F9A7276BD70900CAD64F /* StatView.swift */; };
+		A890079A276CD07000F80404 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8900799276CD07000F80404 /* WebView.swift */; };
 		A8E68D97276A9D060001E920 /* The_Feline_OrderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E68D96276A9D060001E920 /* The_Feline_OrderApp.swift */; };
 		A8E68D99276A9D060001E920 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E68D98276A9D060001E920 /* ContentView.swift */; };
 		A8E68D9B276A9D070001E920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E68D9A276A9D070001E920 /* Assets.xcassets */; };
@@ -14,6 +17,10 @@
 		A8E68DA8276A9D070001E920 /* The_Feline_OrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E68DA7276A9D070001E920 /* The_Feline_OrderTests.swift */; };
 		A8E68DB2276A9D070001E920 /* The_Feline_OrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E68DB1276A9D070001E920 /* The_Feline_OrderUITests.swift */; };
 		A8E68DB4276A9D070001E920 /* The_Feline_OrderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E68DB3276A9D070001E920 /* The_Feline_OrderUITestsLaunchTests.swift */; };
+		A8E68DC2276A9DA30001E920 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E68DC1276A9DA30001E920 /* CardView.swift */; };
+		A8E68DC6276AE9C80001E920 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E68DC5276AE9C80001E920 /* functions.swift */; };
+		A8E68DCC276B8FB80001E920 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = A8E68DCB276B8FB80001E920 /* SwiftyJSON */; };
+		A8E68DCF276BCF530001E920 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E68DCE276BCF530001E920 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A836F9A5276BD51D00CAD64F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A836F9A7276BD70900CAD64F /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		A8900799276CD07000F80404 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		A8E68D93276A9D060001E920 /* The Feline Order.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Feline Order.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E68D96276A9D060001E920 /* The_Feline_OrderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Feline_OrderApp.swift; sourceTree = "<group>"; };
 		A8E68D98276A9D060001E920 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,9 @@
 		A8E68DAD276A9D070001E920 /* The Feline OrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Feline OrderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E68DB1276A9D070001E920 /* The_Feline_OrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Feline_OrderUITests.swift; sourceTree = "<group>"; };
 		A8E68DB3276A9D070001E920 /* The_Feline_OrderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Feline_OrderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8E68DC1276A9DA30001E920 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A8E68DC5276AE9C80001E920 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
+		A8E68DCE276BCF530001E920 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E68DCC276B8FB80001E920 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +108,13 @@
 		A8E68D95276A9D060001E920 /* The Feline Order */ = {
 			isa = PBXGroup;
 			children = (
+				A8E68DCD276BCF430001E920 /* Models */,
+				A8E68DC0276A9D150001E920 /* Views */,
 				A8E68D96276A9D060001E920 /* The_Feline_OrderApp.swift */,
 				A8E68D98276A9D060001E920 /* ContentView.swift */,
 				A8E68D9A276A9D070001E920 /* Assets.xcassets */,
 				A8E68D9C276A9D070001E920 /* Preview Content */,
+				A8E68DC5276AE9C80001E920 /* functions.swift */,
 			);
 			path = "The Feline Order";
 			sourceTree = "<group>";
@@ -127,6 +144,25 @@
 			path = "The Feline OrderUITests";
 			sourceTree = "<group>";
 		};
+		A8E68DC0276A9D150001E920 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8E68DC1276A9DA30001E920 /* CardView.swift */,
+				A836F9A5276BD51D00CAD64F /* DetailView.swift */,
+				A836F9A7276BD70900CAD64F /* StatView.swift */,
+				A8900799276CD07000F80404 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8E68DCD276BCF430001E920 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8E68DCE276BCF530001E920 /* Character.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +179,9 @@
 			dependencies = (
 			);
 			name = "The Feline Order";
+			packageProductDependencies = (
+				A8E68DCB276B8FB80001E920 /* SwiftyJSON */,
+			);
 			productName = "The Feline Order";
 			productReference = A8E68D93276A9D060001E920 /* The Feline Order.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +254,9 @@
 				Base,
 			);
 			mainGroup = A8E68D8A276A9D060001E920;
+			packageReferences = (
+				A8E68DCA276B8FB80001E920 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = A8E68D94276A9D060001E920 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +300,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8E68D99276A9D060001E920 /* ContentView.swift in Sources */,
+				A890079A276CD07000F80404 /* WebView.swift in Sources */,
+				A836F9A8276BD70900CAD64F /* StatView.swift in Sources */,
+				A836F9A6276BD51D00CAD64F /* DetailView.swift in Sources */,
+				A8E68DC6276AE9C80001E920 /* functions.swift in Sources */,
+				A8E68DCF276BCF530001E920 /* Character.swift in Sources */,
+				A8E68DC2276A9DA30001E920 /* CardView.swift in Sources */,
 				A8E68D97276A9D060001E920 /* The_Feline_OrderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,12 +394,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -401,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -585,6 +634,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A8E68DCA276B8FB80001E920 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A8E68DCB276B8FB80001E920 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8E68DCA276B8FB80001E920 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A8E68D8B276A9D060001E920 /* Project object */;
 }
