@@ -1,7 +1,7 @@
 # The Feline Order(had to pay a tribute to the cats in some way)
 ## Please read this ReadMe
 
-
+I'm going to new york tomorrow to celebrate my birthday, therfore I didn't have much time to code but I did my best and really hope I can pass to the next stage!
 I initially thought app was supposed to be about cats but the API did not have any cat pictures so I made it about Star Wars Characters(so the API could be used since it was a requirement).
 Because of the pictures situation I wrote a python script to download all the images for each character, so that the app would work as intended. However, I do know how to show an image from the web in an ios app with just a link being provided, I just could not really do it in this app since the pictures the API had were pictures of random things.
 
