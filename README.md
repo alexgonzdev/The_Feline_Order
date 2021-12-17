@@ -27,4 +27,7 @@ Extra Features/Ideas that I believe will make me stand out:
 
 ![Footage of the app](starwars.gif)
 
+## Footage of iPad Version
+![Footage of the app](ipadstarwars.gif)
+
 
